@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
       'TrustSDK' => ['TrustSDK/Resources/**/*.xcassets', 'TrustSDK/Resources/**/*.strings']
     }
     cs.source_files = 'TrustSDK/Classes/Client/**/*'
-    cs.dependency 'WalletCore/Types'
+    cs.dependency 'TrustWalletCore/Types'
     cs.dependency 'BigInt'
   end
 
